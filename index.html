@@ -1,1 +1,44 @@
-<br>Hello world</br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册表单正则表达式验证代码</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="" autocomplete="off">
+        <input type="text" name="" id="na" placeholder="昵称"><img src="" alt=""><br>
+        <p>3~6个中文字符或数字或字母组合</p><br>
+        <input type="password" name="" id="pawd" placeholder="密码"><img src="" alt=""><br>
+        <p>6~16个字符，区分大小写</p><span id="ruo">弱</span><span id="zo" >中</span><span id="qiang" >强</span><br>
+        <input type="password" name="" id="pwd" placeholder="确认密码"><img src="" alt=""><br>
+        <p>请再次填写密码</p>
+        <div class="verify">
+            <div id="verify_box">
+                <div id="verify_xbox">
+                    <div id="btn2">
+                        <img class="img" src="img/lllllll.png"/>
+                    </div>
+                </div>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;按住滑块，拖动到最右边
+            </div>
+           
+        </div>
+        <h6>请滑动上方滑块验证</h6>
+        <input type="text" name="" id="phone" placeholder="手机号"><img src="" alt=""><br>
+        <p>请填写正确的手机号码</p><br>
+        <input type="text" name="" id="yzm" placeholder="请输入短信验证码" maxlength="6"><br>
+        <p>请填写手机验证码，不区分大小写</p>
+        <button id="btn">获取验证码</button>
+    </form>
+    <div class="btn1">立即注册</div>
+    <div id="mask">注册成功</div>
+    <div class="load"></div>
+    <script type="text/javascript" src="js/slide.js"></script>
+    <script src="js/index.js"></script>
+	<div style="text-align:center;">
+<p>更多源码：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+</div>
+</body>
+</html>
