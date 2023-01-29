@@ -86,6 +86,12 @@
 <script>
 document.write("<h1>this's a title!</h1>");
 document.write("<p>这是一个段落。</p>");
+function myFunction()
+{
+	x=document.getElementById("demo");  // 找到元素
+	x.innerHTML="Hello JavaScript!";    // 改变内容
+}
 </script>
+<button type="button" onclick="myFunction()">点击这里</button>
 </body>
 </html>
